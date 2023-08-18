@@ -1,0 +1,114 @@
+@media (max-width:820px){
+   
+        
+    .wrapper .tagline {
+            position: absolute;
+            top: 22%;
+            left: 30%;
+            flex: 1;
+            font-size: 20px;
+           
+        }
+        .title {
+            
+           top: 25%;
+           left: 1%;
+            
+          }
+          .more {
+           position: absolute;
+            top: 90%;
+            left: 10%;
+            
+            
+              
+            }
+            .juice {
+           
+                top: 50%;
+                left: 50%;
+           
+              }
+              .desc{
+                position: absolute;
+               
+                left: 67%;
+              }
+              .leaves .layer:nth-child(1) {
+                top: -50px !important;
+                left: -420px !important;
+              }
+              
+              .leaves .layer:nth-child(2) {
+                top: 290px !important;
+                left: 90px !important;
+              }
+              
+              .leaves .layer:nth-child(3) {
+                top: -400px !important;
+                left: 300px !important;
+              }
+              
+              .leaves .layer:nth-child(4) {
+                top: -70px !important;
+                left: 320px !important;
+              }
+              
+              .leaves .layer:nth-child(5) {
+                top: 300px !important;
+                left: -320px !important;
+              }
+  
+}
+@media (max-width:500px){
+ 
+     .wrapper .tagline {
+       
+        top: 10%;
+        left: 20%;
+        font-size: 18px;
+       
+    }
+    .title {
+        
+       top: 15%;
+       left: 0%;
+       font-size: 70px;
+        
+      }
+      .more {
+       position: absolute;
+       padding: 10px;
+        top: 80px;
+        left: 29%;
+       width: 40%;
+        
+        
+          
+        }
+        .more a{
+            font-size: 15px;
+        }
+        .juice {
+       
+            top: 53%;
+            left: 50%;
+       
+          }
+          .desc{
+            position: absolute;
+            top: 130px;
+            left: 22%;
+            text-align: center;
+          }
+          .desc p{
+            font-size: 10px;
+          }
+          .desc p:nth-child(1) {
+            font-size: 15px;
+            margin-bottom: 10px;
+          }
+          .leaves {
+           display: none;
+          }
+}

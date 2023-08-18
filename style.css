@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: 'Montserrat';
+  font-size: 12px;
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.nav .logo img {
+  height: 10vh;
+}
+
+
+
+
+.content {
+  width: 100%;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+  z-index: -1;
+}
+
+.title {
+  position: absolute;
+  top: 26%;
+  left: 25%;
+  
+  flex: 0 0 100%;
+  font-size: 100px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+
+.tagline {
+  position: absolute;
+  top: 22%;
+  left: 40%;
+  flex: 1;
+  font-size: 20px;
+  color: #999;
+}
+
+
+
+
+
+.more {
+outline: none;
+padding: 10px 30px;
+background-color: #AECD31;
+border: #AECD31;
+border-radius: 10px;
+position: absolute;
+top: 70%;
+left: 25%;
+
+
+  
+}
+
+
+.more a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 30px;
+  
+  
+}
+
+.content .desc{
+  display: flex;
+  flex-direction: column;
+  
+ 
+}
+.desc{
+  position: absolute;
+ 
+  left: 60%;
+}
+.desc p{
+font-size: 14px;
+}
+.desc i{
+  padding: 5px;
+}
+
+.desc p:nth-child(1) {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.desc p:nth-child(2) {
+  line-height: 2;
+}
+
+.desc span {
+  color: #AECD31;
+}
+
+.juice {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  z-index: 1;
+}
+
+.juice img {
+  animation: float 4s ease-in-out infinite;
+  max-height: 600px;
+  cursor: pointer;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(-50%, -46%);
+  }
+  50% {
+    transform: translate(-50%, -54%);
+  }
+  100% {
+    transform: translate(-50%, -46%);
+  }
+}
+
+.leaves {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+}
+
+.leaves img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.leaves .layer:nth-child(1) {
+  top: -100px !important;
+  left: -480px !important;
+}
+
+.leaves .layer:nth-child(2) {
+  top: 190px !important;
+  left: 90px !important;
+}
+
+.leaves .layer:nth-child(3) {
+  top: -300px !important;
+  left: 160px !important;
+}
+
+.leaves .layer:nth-child(4) {
+  top: -70px !important;
+  left: 320px !important;
+}
+
+.leaves .layer:nth-child(5) {
+  top: 200px !important;
+  left: -320px !important;
+}
+
+
+
+
+
